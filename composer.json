@@ -29,14 +29,11 @@
             "App\\": "app/"
         }
     },
-<<<<<<< HEAD
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
         }
     },
-=======
->>>>>>> 8bbe0b01f3fc1aad595ef0392f2df5e89a3ccd71
     "minimum-stability": "dev",
     "prefer-stable": true
 }
