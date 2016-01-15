@@ -1,0 +1,42 @@
+{
+    "name": "doker/doker",
+    "description": "doker framework",
+    "homepage": "http://doker.yidx.net",
+    "keywords": ["doker", "framework"],
+    "licence": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Nike Madrid",
+            "email": "nikejoelmadrid@gmail.com"
+        }    
+    ],
+    "support": [
+        {
+            "issues": "https://github.com/dynamicCoding/doker/issues",
+            "source": "https://github.com/dynamicCoding/doker"
+            
+        }
+    ],
+    "require": {
+		"php": ">=5.5.0"
+	},
+	"autoload": {
+        "classmap": [
+            "database", "src"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+<<<<<<< HEAD
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+=======
+>>>>>>> 8bbe0b01f3fc1aad595ef0392f2df5e89a3ccd71
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
