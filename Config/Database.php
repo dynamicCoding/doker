@@ -13,30 +13,21 @@ return [
 		
 		'drivers'	=> [
 				'mysql' => [
-					'host'			=> 'localhost',
-					'username' => 'root',
-					'password' => '',
-					'database' => '',
+					'host'		=> 'localhost',
+					'username' 	=> 'root',
+					'password' 	=> '',
+					'database' 	=> '',
 					'charset' 	=> 'utf8',
 					'collation'	=> 'utf8_unicode_ci'
 				],
 				
 				'pdo' => [
-					'host'			=> 'localhost',
-					'username' => 'root',
-					'password' => '',
-					'database' => '',
+					'host'		=> 'localhost',
+					'username' 	=> 'root',
+					'password' 	=> '',
+					'database' 	=> '',
 					'charset' 	=> 'utf8',
 					'collation'	=> 'utf8_unicode_ci'
-				],
-				
-				'postgresql' => [
-					'host'			=> 'localhost',
-					'username' 		=> 'root',
-					'password' 		=> '',
-					'database' 		=> '',
-					'charset' 		=> 'utf8',
-					'collation'		=> 'utf8_unicode_ci'
-				],
+				]
 		]
 ];
