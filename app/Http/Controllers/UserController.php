@@ -1,6 +1,6 @@
 <?php
 
-namespace Http\Controllers;
+namespace App\Http\Controllers;
 
 use Disting\Base;
 use Disting\Http\Request;
@@ -10,14 +10,14 @@ class UserController extends Base
 	
 	public function login(Request $request)
 	{
-		$this->service->provider('Denied\LoginDenied');
+		$this->service->provider('App\Denied\LoginDenied');
 		
 		$this->load->view('Forms.login')->vars(['title' => 'login', 'app' => $this]);
 	}
 	
 	public function signin()
 	{
-		$this->service->provider('Denied\LoginDenied');
+		$this->service->provider('App\Denied\LoginDenied');
 		
 		$this->load
 			->view('Forms.register')
