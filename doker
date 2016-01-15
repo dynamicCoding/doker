@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+
+use Ilum\Console\ArgsConsole;
+use Ilum\Console\Send;
+
+require 'public/start.php';
+
+$console = (new ArgsConsole)->entrada(Send::argv());
+
+return $console;

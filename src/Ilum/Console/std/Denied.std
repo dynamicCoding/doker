@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Denied;
+
+class classname
+{
+	public $auth = [""];
+	
+	public $denied = true;
+	
+	public $status = 301;
+	
+	public $redirect = "";
+}

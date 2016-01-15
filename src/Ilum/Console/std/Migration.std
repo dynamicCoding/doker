@@ -1,0 +1,28 @@
+<?php
+
+namespace migration;
+
+use Ilum\Console\Schema\Schema;
+use Ilum\Console\Schema\Type;
+
+class classname 
+{
+    public function up()
+    {
+        Schema::up('table', function(Type $type){
+            $type->engine = 'MyISAM';
+            $type->id()->autoincrement()
+                ->save();
+        });
+    }
+    
+    public function down()
+    {
+        Schema::down('table');
+    }
+
+    public function truncate()
+    {
+        Schema::truncate('table');
+    }
+}

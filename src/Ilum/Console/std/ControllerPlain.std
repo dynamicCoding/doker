@@ -1,0 +1,10 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Disting\Base;
+
+class classname extends Base
+{
+	
+}

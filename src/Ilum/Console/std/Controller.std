@@ -1,0 +1,49 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Disting\Base;
+
+class classname extends Base
+{
+	
+	/**
+	 *
+	 */
+	public function index()
+	{
+		
+	}
+	
+	/**
+	 *
+	 */
+	public function select($id)
+	{
+		
+	}
+	
+	/**
+	 *
+	 */
+	public function create()
+	{
+		
+	}
+	
+	/**
+	 *
+	 */
+	public function update($id)
+	{
+		
+	}
+	
+	/**
+	 *
+	 */
+	public function delete($id)
+	{
+		
+	}
+}
