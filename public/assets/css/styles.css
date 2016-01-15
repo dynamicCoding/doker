@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: hsl(39, 100%, 93%);
+    -webkit-animation-name: welcome;
+    -moz-animation-name: welcome;
+    -webkit-animation-duration: 4s;
+    -moz-animation-duration: 4s;
+    -webkit-animation-iteration-count: 3;
+    -moz-animation-iteration-count: 3;
+    animation-name: welcome;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+.content {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    line-height: 50px;
+}
+.content h1 {
+    font-size: 50px;
+    color: #077F9A;
+    margin-top: 30%;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.content p {
+    font-size: 20px;
+    color: rgba(28, 28, 28, 0.84);
+}
+
+@-webkit-keyframes welcome {
+    25% {
+        background: #eeeeee;
+    }
+    50% {
+        background: #9be97c;
+    }
+    75% {
+        background: #84cfff;
+    }
+    100% {
+        background: #ffd498;
+    }
+}
+
+@keyframes welcome {
+    25% {
+        background: #eeeeee;
+    }
+    50% {
+        background: #9be97c;
+    }
+    75% {
+        background: #84cfff;
+    }
+    100% {
+        background: #ffd498;
+    }
+}
