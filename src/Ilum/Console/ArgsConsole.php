@@ -109,7 +109,6 @@ class ArgsConsole
             'migrate:up [option]' => 'migra la tabla creada con los campos creados',
             'migrate:down [option]' => 'elimina la tabla con todo los datos',
             'migrate:truncate [option]' => 'elimina los datos de la tabla',
-            'migrate:rollback [option]' => 'ejecuta un rollback para vaciar la tabla',
             'drop [option = [all]]' => 'elimina todas las migraciones creadas'
         ]);
 		
