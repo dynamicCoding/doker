@@ -50,7 +50,7 @@ class Bootstrap
 			}
 			$this->args = $get;
 			
-			$this->file = '\Http\Controllers\\'.$this->controller.'Controller';
+			$this->file = '\App\Http\Controllers\\'.$this->controller.'Controller';
 			
 		} catch(DokerException $e) {
 			die($e->getMessage());
