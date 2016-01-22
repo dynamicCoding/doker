@@ -23,11 +23,8 @@
 	},
 	"autoload": {
         "classmap": [
-            "Database", "src"
-        ],
-        "psr-4": {
-            "App\\": "app/"
-        }
+            "src"
+        ]
     },
     "minimum-stability": "dev",
     "prefer-stable": true
