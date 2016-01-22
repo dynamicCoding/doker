@@ -15,7 +15,7 @@ class ErrorTemplate extends Base
 		$line = $e->getLine();
 		$trace = str_replace(array('#', "\n"), array('<div>#', '</div>'), $e->getTraceAsString());
 		
-		$this->load->viewPath('src/Disting/Handler/');
+		$this->load->viewPath(__DIR__.'/');
 		$this->load->view('error')
 		->vars([
 			"error" 			=> 	$e, 

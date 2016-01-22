@@ -68,7 +68,9 @@ class HandlerError
 			$msg_error, $level, 0, $file, $line)
 		);
 		
-		return $this->save();
+		$this->save();
+		
+		exit;
 	}
 	
 	public function logFile($file)

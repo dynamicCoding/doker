@@ -43,7 +43,12 @@ class View
 	}
 
 	public function viewPath($path) {
-		$this->resources['view'] = APP_PATH.'/'.$this->withReplace($path);
+		$file = APP_PATH.'/'.$this->withReplace($path);
+		if(file_exists($file)){
+			$this->resources['view'] = $file;
+		}else{
+			$this->resources['view'] = $this->withReplace($path);
+		}
 	}
 	
 	public function view($view, $include = null) {
